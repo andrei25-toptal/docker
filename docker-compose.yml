@@ -9,7 +9,6 @@ services:
 
   cache:
     image: 'redis:5-alpine'
-    restart: always
     command: redis-server
     ports:
       - '6379:6379'
